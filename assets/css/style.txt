@@ -1,6 +1,4 @@
-body {
-    background: red;
-}
+
 
 header {
     border-bottom: 2px grey;

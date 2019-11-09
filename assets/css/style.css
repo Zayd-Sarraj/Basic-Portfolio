@@ -1,19 +1,113 @@
 body {
-    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
-    border-bottom: 2px grey;
+    border-bottom: 2px #cccccc solid;
 }
 
 h1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: teal;
-    padding: 10px;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    float: left;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    margin: 25px;
+    padding-top: 10px;
+    color: teal;
+    font-weight: bold;
+}
+
+li {
+    text-align: center;
+    float: right;
+    padding-top: 10px;
+    margin-top: 20px
 }
 
 a {
     color: grey;
-    font-size: 18px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-stretch: ultra-expanded;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#headerMid {
+    background: white;
+    width: auto;
+    float: left;
+}
+
+#title {
     float: right;
-    padding: 10px;
+}
+
+#portfolio {
+    border-left: #cccccc 1px solid;
+    border-right: #cccccc 1px solid;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contentWidth {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMe {
+    border: #dddddd solid 1px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background: white;
+    float: left;
+}
+
+#imgFloat {
+    float: left;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+#aboutMeBorder {
+    border-top: solid 2px  #cccccc;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background: grey;
+    border-top: teal solid 5px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
 }
